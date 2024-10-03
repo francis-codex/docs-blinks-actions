@@ -3,9 +3,10 @@
 <img src="blinks.jpg" width="600" height="350" alt="postal-logo">
 
 ## Table of Contents
+
 - [Intro](#intro)
 - [What are Solana Actions and Blinks?](#what-are-solana-actions-and-blinks)
-- [Difference between Actions and blinks?](#difference-between-Actions-and-blinks)
+- [Difference between Actions and blinks?](#difference-between-actions-and-blinks)
 - [Solana Actions and Blinks Use Cases](#solana-actions-and-blinks-use-cases)
 - [How Do Blinks Works?](#how-do-blinks-works)
 - [Developers’ Integration Guide](#developers-integration-guide)
@@ -31,10 +32,25 @@ Blockchain links – or blinks – turn any Solana Action into a shareable, meta
 
 Actions are APIs that allow complex logic (both on and off-chain) to be used to construct transaction messages that are previewed, signed, and sent by the client. Native buttons, QR codes, or URLs (blinks) can initiate an Action.
 
-Blinks are one way to interact with an Action. Blinks allow users to execute blockchain transactions directly from URLs, making decentralized applications accessible from any platform or device.   
+Blinks are one way to interact with an Action. Blinks allow users to execute blockchain transactions directly from URLs, making decentralized applications accessible from any platform or device.
 
 ## Solana Actions and Blinks Use Cases
 
+Currently, Blinks are experimentally integrated with X, enabling real-time blockchain transaction processing. They have found utility in payments, smart contract signing, voting, donations, and token swaps on [Dialect](https://dial.to/).
+
+Some Use-cases of Solana Actions might include:
+
+Staking SOL to help secure the Solana network, including liquid staking tokens.
+Allowing customers to pay at a retail store using a QR code scan.
+Token-gated minting experiences.
+Enabling e-commerce websites to accept cryptocurrency payments directly from product pages.
+Integrating blockchain functionality into gaming platforms for in-game asset purchases and trades.
+
+Some Use-cases of Solana Blinks might include:
+
+Tipping content creators on social media without the need for complex wallet setups
+Minting custom NFTs or participating in governance votes directly from URLs
+Letting users vote on community policies via links in newsletters.
 
 ```javascript
     ########
