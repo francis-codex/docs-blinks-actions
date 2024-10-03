@@ -1,6 +1,6 @@
 # Connecting Solana to the Entire Internet: Getting Started with Solana Blinks & Actions 👨🏾‍💻
 
-<img src="blinks.jpg" width="600" height="300" alt="postal-logo">
+<img src="blinks.jpg" width="600" height="350" alt="postal-logo">
 
 ## Table of Contents
 - [Intro](#intro)
