@@ -1,5 +1,6 @@
 # Connecting Solana to the Entire Internet: Getting Started with Solana Blinks & Actions 👨🏾‍💻
 
+<img src="blinks.jpg" width="500" height="500" alt="postal-logo">
 
 ## Table of Contents
 - [Intro](#intro)
@@ -28,19 +29,9 @@ Blockchain links – or blinks – turn any Solana Action into a shareable, meta
 
 ## Difference between Actions and blinks?
 
-Helius was created to address several pain points in the Solana development ecosystem:
+Actions are APIs that allow complex logic (both on and off-chain) to be used to construct transaction messages that are previewed, signed, and sent by the client. Native buttons, QR codes, or URLs (blinks) can initiate an Action.
 
-1. **Scalability Challenges**: As Solana's popularity grew, many developers struggled with the limitations of public RPC nodes, which often became overwhelmed during periods of high network activity.
-
-2. **Data Accessibility**: Extracting meaningful data from raw Solana transactions was a time-consuming and complex process, hindering rapid development and innovation.
-
-3. **Real-time Updates**: There was a lack of efficient solutions for receiving real-time updates about on-chain events, crucial for many dApp use cases.
-
-4. **NFT Ecosystem Complexity**: The booming Solana NFT ecosystem introduced unique challenges in terms of metadata handling and real-time updates.
-
-5. **Developer Experience**: There was a need for more developer-friendly tools and APIs to lower the barrier to entry for Solana development.
-
-By addressing these challenges, Helius aims to accelerate the growth of the Solana ecosystem and empower developers to build more sophisticated and scalable applications.
+Blinks are one way to interact with an Action. Blinks allow users to execute blockchain transactions directly from URLs, making decentralized applications accessible from any platform or device.
 
 ## Solana Actions and Blinks Use Cases
 
