@@ -50,7 +50,6 @@ Some Use-cases of Solana Blinks might include:
 
 Tipping content creators on social media without the need for complex wallet setups
 Minting custom NFTs or participating in governance votes directly from URLs
-Letting users vote on community policies via links in newsletters.
 
 ```javascript
     ########
