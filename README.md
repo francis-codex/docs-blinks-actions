@@ -12,15 +12,21 @@
 
 ## Intro
 
-I'm not the best solana developer out there, but I have been around the block for a while now, picked up a few experiences and learnt a few things about the various technologies in the field. One of those really well distinguished tech is Helius, and I'll be sharing some things I have learned about it and how it can help your development journey on solana. 
+At exactly 2:05 PM · Jun 25, 2024, the team at [Dialect](https://x.com/saydialect) announced the launching of Solana’s innovative Blinks, short for Blockchain Links: A powerful way of bringing crypto to the people and connecting Solana to the entire internet.
 
-As the Solana ecosystem continues to grow and evolve, developers face increasing challenges in building scalable, efficient, and feature-rich applications. To mitigate these challenges, Helius, a powerful suite of tools and services is designed to enhance Solana development and unlock new possibilities for decentralized applications (dApps). In this comprehensive guide, we'll explore how to maximize Helius for your Solana development projects, diving deep into its features, use cases, and best practices.
+You can buy, sell, swap, vote, or engage with token-gated experiences without leaving your Twitter/X feed by installing a browser wallet. This guide will help developers go from zero-production with Blinks in a Blink 👀!
+
+Blinks simplifies the process of online crypto transactions by reducing the long process. Rather than being redirected couple of times, you can complete it in one go. However, it’s important to remember that a Solana wallet(browsers-based) such as Phantom, Solflare and Backpack is still required to use Blinks, all you have to do, is to turn on Experimental features.
+
+Using Solana Actions, you can turn any transaction into a blockchain link (Blinks) that can be shared anywhere on the internet — no third party application required. Request a payment in a text message. Vote on governance in a chatroom. Buy an NFT on social media. It’s all possible. 
+
+Blockchain links (Blinks) are interfaces and just one way to interact with Solana Actions, you could build the next way, Solana Actions are the APIs to deliver transactions on many surfaces.
 
 ## What are Solana Actions and Blinks?
 
-Helius is a cutting-edge infrastructure provider for the Solana blockchain, offering a range of products and services that cater to the needs of developers, from hobbyists to enterprise-level teams. At its core, Helius provides enhanced RPC nodes, APIs, and tools that simplify the process of building, scaling, and maintaining Solana applications.
+Solana Actions are standard APIs that return transactions on the Solana blockchain to be previewed, signed, and sent across various contexts, including QR codes, buttons + widgets in mobile and desktop applications, and websites across the internet. Actions make it simple for developers to integrate the things you can do throughout the Solana ecosystem right into your environment, allowing users to make blockchain transactions without switching to another app or website.
 
-The platform stands out for its focus on performance, reliability, and developer experience. By leveraging Helius, developers can access high-performance RPC nodes, benefit from enriched transaction data, and utilize specialized APIs that abstract away much of the complexity involved in Solana development.
+Blockchain links – or blinks – turn any Solana Action into a shareable, metadata-rich link. Blinks allow Action-sensitive clients (browser extension wallets, bots,etc.) to display additional capabilities for the user. In a web browser, it might show a preview of the transaction in a wallet without going to a decentralized app;In a chat app like Discord, it could turn into buttons you can interact with. Blinks make it possible to do blockchain transactions from almost anywhere you can share a link.
 
 ## Difference between Actions and blinks?
 
