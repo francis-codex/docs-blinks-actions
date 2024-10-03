@@ -1,6 +1,6 @@
 # Connecting Solana to the Entire Internet: Getting Started with Solana Blinks & Actions 👨🏾‍💻
 
-<img src="blinks.jpg" width="600" height="500" alt="postal-logo">
+<img src="blinks.jpg" width="600" height="300" alt="postal-logo">
 
 ## Table of Contents
 - [Intro](#intro)
@@ -31,7 +31,7 @@ Blockchain links – or blinks – turn any Solana Action into a shareable, meta
 
 Actions are APIs that allow complex logic (both on and off-chain) to be used to construct transaction messages that are previewed, signed, and sent by the client. Native buttons, QR codes, or URLs (blinks) can initiate an Action.
 
-Blinks are one way to interact with an Action. Blinks allow users to execute blockchain transactions directly from URLs, making decentralized applications accessible from any platform or device.
+Blinks are one way to interact with an Action. Blinks allow users to execute blockchain transactions directly from URLs, making decentralized applications accessible from any platform or device.   
 
 ## Solana Actions and Blinks Use Cases
 
