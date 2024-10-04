@@ -196,3 +196,10 @@ Name your project and change the directory. Mine;
 cd blinks-sol-transfer
 npm run dev
 ```
+
+1. **Create Directories:**
+
+Under `src/app`, create two folders:
+
+1. `api/transfer-sol` (you can choose a different name if needed)
+2. `Actions.json`
