@@ -262,7 +262,7 @@ To set up the API routes for handling $SOL transfer, follow these steps:
 
 3. Insert the following code into the `route.ts` file:
 
-```javascript
+```typescript
 
 import {
    ActionPostResponse,
