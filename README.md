@@ -448,3 +448,55 @@ import {
  }
 
 ```
+
+Similarly,
+
+1. Open the `const.ts` file in this folder.
+
+2. Insert the following code into the `const.ts` file:
+
+```typescript
+
+import { PublicKey } from "@solana/web3.js";
+
+export const DEFAULT_SOL_ADDRESS: PublicKey = new PublicKey(
+  "<your public key>", //Replace it with your Solana wallet address
+);
+
+export const DEFAULT_SOL_AMOUNT: number = 1.0;
+
+```
+
+**Step 4: Set the Actions:**
+
+To set up the Actions JSON, follow these steps:
+
+1. Go to the `src/app/Actions.json` or `web/app/Actions.json` folder.
+
+2. Open the `route.ts` file in this folder.
+
+3. Insert the following code into the `route.ts` file:
+
+```typescript
+
+import { ACTIONS_CORS_HEADERS, ActionsJson } from "@solana/actions";
+
+export const GET = async () => {
+  const payload: ActionsJson = {
+    rules: [
+      // map all root level routes to an action
+      {
+        pathPattern: "/",
+        apiPath: "/api/donate/",
+      },
+    ],
+  };
+
+  return Response.json(payload, {
+    headers: ACTIONS_CORS_HEADERS,
+  });
+};
+
+export const OPTIONS = GET;
+
+```
