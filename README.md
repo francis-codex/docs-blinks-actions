@@ -366,7 +366,7 @@ import {
      }
  
      const connection = new Connection(
-       process.env.SOLANA_RPC! || clusterApiUrl("devnet"),
+       process.env.SOLANA_RPC! || clusterApiUrl("devnet"), // Remember to change when you deploy on main-net
      );
  
      // ensure the receiving account will be rent exempt
