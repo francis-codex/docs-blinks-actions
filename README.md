@@ -201,5 +201,10 @@ npm run dev
 
 Under `src/app`, create two folders:
 
-1. `api/transfer-sol` (you can choose a different name if needed)
-2. `Actions.json`
+- `api/transfer-sol` (you can choose a different name if needed)
+- `Actions.json`
+
+2. **Create `route.ts` Files:**
+
+- Inside the `api/transfer-sol` folder, create a file named `route.ts` and `const.ts`.
+- Inside the `Actions.json` folder, create another file named `route.ts`.
