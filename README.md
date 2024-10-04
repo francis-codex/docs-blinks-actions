@@ -54,7 +54,7 @@ Letting users vote on community policies via links in newsletters.<br>
 
 ## How Do Actions and Blinks Works?
 
-### Actions:
+### Actions
 
 **Purpose**:
 
@@ -134,7 +134,7 @@ Interacting with Solana Actions is similar to using a typical REST API:
 - Actions can return error messages and disable options when not applicable
 - Example: A closed voting window might return "This proposal is no longer up for a vote" and disable voting buttons
 
-### Blinks:
+### Blinks
 
 Blinks (blockchain links) are client applications that reflect Action APIs and construct user interfaces around interacting with and executing Actions.
 
@@ -170,12 +170,16 @@ Before you get our hands dirty, make sure you have the following:
 
 Now, Let's go!
 
-**Step 1: Setting Up Your Environment:**
+**Step 1: Setting Up Your Environment:**<br>
 First, ensure you have Node.js and npm installed. You can download them from [here](https://nodejs.org/).
 
-So we are going to be doing this two ways:
+So we are going to be doing this two ways, you could use which ever one works for you:
 
 **Create Solana dapp** <br>
 **Create a Next.js app**
 
-
+> **Reasons**
+>
+> If you are building a full Solana dApp, with frameworks like Anchor, you may want to use the Create Solana dapp,
+> because it comes pre-installed, when you click YES to the options while installing, anything other than that,
+> you can go with the regular Create a Next.js app.
