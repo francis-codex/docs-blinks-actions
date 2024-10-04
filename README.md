@@ -500,3 +500,14 @@ export const GET = async () => {
 export const OPTIONS = GET;
 
 ```
+
+**Step 5: Verify your API:**
+
+We are done, writing codes,
+
+Now let's verify the GET API response by sending a request to the API using the Thunder client extension in VS Code.
+
+<img src="thunder.png" alt="thunder-client">
+
+
+You can do it using [Postman](https://www.postman.com/) also.
