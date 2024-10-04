@@ -54,7 +54,7 @@ Letting users vote on community policies via links in newsletters.<br>
 
 ## How Do Actions and Blinks Works?
 
-### Actions
+### Actions:
 
 **Purpose**:
 
@@ -79,29 +79,29 @@ Letting users vote on community policies via links in newsletters.<br>
    - Client prompts user's wallet to sign
    - Transaction is then executed on the blockchain or an off-chain service
 
-Interacting with Solana Actions is similar to using a typical REST API
+Interacting with Solana Actions is similar to using a typical REST API:
 
-#### Initial GET Request
+**Initial GET Request**
 
 - Client sends a GET request to the Action URL
 - Purpose: Fetch metadata about available Actions
 
-#### Metadata Response
+**Metadata Response**
 
 - Endpoint returns:
 - Application metadata (title, icon, etc.)
 - List of available actions
 
-#### User Interface
+**User Interface**
 
 - Client (e.g., mobile wallet, chat bot, website) displays UI based on received metadata
 - Shows options for user to perform actions
 
-#### User Action
+**User Action**
 
 - User selects an action (e.g., clicks a button)
 
-#### POST Request
+**POST Request**
 
 - Client sends a POST request to the endpoint
 - Purpose: Get the transaction for user to sign
@@ -113,28 +113,28 @@ Interacting with Solana Actions is similar to using a typical REST API
 > You can think of Actions as a API endpoint that will return metadata and something
 > for a user to sign (either a transaction or a authentication message) with their blockchain wallet.
 
-#### Transaction Signing and Submission
+**Transaction Signing and Submission**
 
 - Wallet helps user sign the transaction
 - Signed transaction is sent to the blockchain for confirmation
 
-#### Transaction Lifecycle Management
+**Transaction Lifecycle Management**
 
 - Client handles submission of transactions to the blockchain
 - Manages the state lifecycle of transactions
 
-#### Action Invalidation
+**Action Invalidation**
 
 - Actions support invalidation before execution
 - GET and POST requests may return metadata about action availability
 - Example: "disabled" field indicates if an action can be taken
 
-#### Error Handling
+**Error Handling**
 
 - Actions can return error messages and disable options when not applicable
 - Example: A closed voting window might return "This proposal is no longer up for a vote" and disable voting buttons
 
-## Blinks
+### Blinks:
 
 Blinks (blockchain links) are client applications that reflect Action APIs and construct user interfaces around interacting with and executing Actions.
 
@@ -150,6 +150,4 @@ Client applications that support blinks simply detect Action-compatible URLs, pa
 
 ## Prerequisites
 
-```javascript
-    ########
-```
+
