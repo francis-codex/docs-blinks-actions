@@ -38,7 +38,7 @@ Blinks are one way to interact with an Action. Blinks allow users to execute blo
 
 ## Solana Actions and Blinks Use Cases
 
-Currently, Blinks are experimentally integrated with X, enabling real-time blockchain transaction processing. They have found utility in payments, smart contract signing, voting, donations, and token swaps on [Dialect](https://dial.to/).
+Currently, Blinks are experimentally integrated with [Twitter/X](http://x.com/), enabling real-time blockchain transaction processing. They have found utility in payments, smart contract signing, voting, donations, and token swaps on [Dialect](https://dial.to/).
 
 > Traditional onchain transactions have been locked away in apps or complex interfaces, 
 > making it significantly harder for people to use crypto products.
@@ -172,7 +172,7 @@ Additionally, there are a host of libraries and SDKs for developers who wish to 
 Before you get our hands dirty, make sure you have the following:
 
 - Basic understanding of JavaScript/TypeScript and Solana.
-- A Solana wallet installed in your browser (e.g., Solflare).
+- A Solana wallet installed in your browser (e.g., Phantom, Solflare).
 - Node.js installed on your machine.
 
 Now, Let's go!
@@ -188,7 +188,7 @@ So we are going to be doing this two ways, you could use which ever one works fo
 > **Reasons**
 >
 > If you are building a full Solana dApp, with frameworks like Anchor, you may want to use the Create Solana dapp,
-> because it comes pre-installed, when you click YES to the options while installing the Create Solana dapp,
+> because it comes pre-installed, when you click YES to the option while installing the Create Solana dapp,
 > anything other than that,you can go with the regular Create a Next.js app.
 
 **Create Solana dapp:**
