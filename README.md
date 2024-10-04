@@ -9,7 +9,7 @@
 - [Difference between Actions and blinks?](#difference-between-actions-and-blinks)
 - [Solana Actions and Blinks Use Cases](#solana-actions-and-blinks-use-cases)
 - [How Do Actions and Blinks Works?](#how-do-actions-and-blinks-works)
-- [Developers’ Integration Guide](#developers-integration-guide)
+- [How to Build Blinks](#how-to-build-blinks)
 - [Prerequisites](#prerequisites)
 - [Conclusion](#conclusion)
 - [Resources](#resources)
@@ -148,7 +148,7 @@ Client applications that support blinks simply detect Action-compatible URLs, pa
 > a complete interface for it is a blink. Therefore, not all clients that
 > consume Actions APIs are blinks.
 
-## Developers’ Integration Guide
+## How to Build Blinks
 
 Developers can create actions as separate APIs that comply with the Solana Actions Specification, and then may link them to their existing site URLs using an actions.json file.
 
