@@ -184,36 +184,6 @@ So we are going to be doing this two ways, you could use which ever one works fo
 > because it comes pre-installed, when you click YES to the options while installing the Create Solana dapp,
 > anything other than that,you can go with the regular Create a Next.js app.
 
-**Create a Next.js app:**
-
-```test
-npx create-next-app@latest
-```
-
-Name your project and change the directory. Mine;
-
-```test
-cd blinks-sol-transfer
-npm run dev
-```
-
-1. **Create Directories:**
-
-Under `src/app`, create two folders:
-
-- `api/transfer-sol` (you can choose a different name if needed)
-- `Actions.json`
-
-2. **Create `route.ts` Files:**
-
-- Inside the `api/transfer-sol` folder, create a file named `route.ts` and `const.ts`.
-- Inside the `Actions.json` folder, create another file named `route.ts`.
-
-Your directory structure should look like this:
-
-<img src="set-up-next.png" alt="setup-next">
-
-
 **Create Solana dapp:**
 
 ```test
@@ -243,3 +213,38 @@ Your directory structure should look like this:
 
 <img src="set-up.png" alt="setup-next">
 
+**Create a Next.js app:**
+
+```test
+npx create-next-app@latest
+```
+
+Name your project and change the directory. Mine;
+
+```test
+cd blinks-sol-transfer
+npm run dev
+```
+
+1. **Create Directories:**
+
+Under `src/app`, create two folders:
+
+- `api/transfer-sol` (you can choose a different name if needed)
+- `Actions.json`
+
+2. **Create `route.ts` Files:**
+
+- Inside the `api/transfer-sol` folder, create a file named `route.ts` and `const.ts`.
+- Inside the `Actions.json` folder, create another file named `route.ts`.
+
+Your directory structure should look like this:
+
+<img src="set-up-next.png" alt="setup-next">
+
+**Step 2: Installing the Solana Action SDK:**<br> 
+It is a dependency for the Solana blockchain, and it powers Blinks.
+
+```test
+npm install @solana/actions
+```
