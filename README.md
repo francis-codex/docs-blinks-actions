@@ -511,7 +511,14 @@ Now let's verify the GET API response by sending a request to the API using the 
 
 You can do it using [Postman](https://www.postman.com/) also.
 
-<img src="verify1.png" alt="verify">
+<img src="verify1.png" alt="verify1">
 
-> Pleas: Use http instead of https, when you enter the URL
+> Please: Use http instead of https, when you enter the URL
+
+**Step 6: Check POST API Response:**
+
+Verify the POST API response by sending a request with the sender’s account details included in the request body.
+
+<img src="verify2.png" alt="verify2">
+
 
