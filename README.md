@@ -162,4 +162,15 @@ Additionally, there are a host of libraries and SDKs for developers who wish to 
 
 ## Prerequisites
 
+Before you get our hands dirty, make sure you have the following:
+
+- Basic understanding of JavaScript/TypeScript and Solana.
+- A Solana wallet installed in your browser (e.g., Solflare).
+- Node.js installed on your machine.
+
+Now, Let's go!
+
+**Step 1: Setting Up Your Environment:**
+
+
 
