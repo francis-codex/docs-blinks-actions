@@ -135,11 +135,11 @@ Blinks (blockchain links) are client applications that reflect Action APIs and c
 
 Client applications that support blinks simply detect Action-compatible URLs, parse them, and allow users to interact with them in standardized user interfaces.
 
-```text
-Info
-Any client application that fully introspects an Actions API to build a complete interface for it is a blink. Therefore, not all clients that consume Actions APIs are blinks.
-
-```
+> **INFO**
+>
+> Any client application that fully introspects an Actions API to build
+> a complete interface for it is a blink. Therefore, not all clients that
+> consume Actions APIs are blinks.
 
 ## Developers’ Integration Guide
 
