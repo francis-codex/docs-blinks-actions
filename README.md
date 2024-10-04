@@ -11,6 +11,8 @@
 - [How Do Actions and Blinks Works?](#how-do-actions-and-blinks-works)
 - [Developers’ Integration Guide](#developers-integration-guide)
 - [Prerequisites](#prerequisites)
+- [Conclusion](#conclusion)
+- [Resources](#resources)
 
 ## Intro
 
@@ -524,3 +526,20 @@ Verify the POST API response by sending a request with the sender’s account de
 > If you are encountering any issues while creating blink, you can clone my GitHub repo:<br>
 > [Create-Solana-dapp](https://github.com/francis-codex/blinks-sol-transfer)<br>
 > [Create-Next.js-app](https://github.com/francis-codex/blinks-sol-transfer-next)
+
+## Conclusion
+
+This guide provided an overview of creating Blinks on Solana, including basic setup, creating a simple Blink, and handling various use cases. By following these steps, you should be able to create and deploy your own Blinks, enabling interactive blockchain experiences on Twitter/X.
+
+## Resources
+
+- [Dialect](https://x.com/saydialect)
+- [Dialect Protocol Docs](https://www.dialect.to/)
+- [Dialect Github Repository](https://github.com/dialectlabs/blinks)
+- [SuperteamNG RADAR Workshop(Blinks Integration by franciscodex)](https://drive.google.com/file/d/1ILhjpO4sp9KOTLm7t6FkH7nL5sHr4h6h/view?usp=sharing)
+- [Sample codes for creating Solana Actions](https://solana-actions.vercel.app/)
+- [Official Solana Actions and Blinks docs](https://solana.com/docs/advanced/actions)
+- [Solana Actions Github](https://github.com/solana-developers/solana-actions)
+- [Solana Actions Youtube Tutorials](https://www.youtube.com/watch?v=kCht01Ycif0)
+- [What are BLINKs?\[Youtube Tutorial\]](https://www.youtube.com/watch?v=F_5AtCyw_9g&t=688s)
+- [Create your own BLINK \[Solana Youtube Tutorial\]](https://www.youtube.com/watch?v=dLpu6vYsTaI&t=1858s)
