@@ -208,3 +208,8 @@ Under `src/app`, create two folders:
 
 - Inside the `api/transfer-sol` folder, create a file named `route.ts` and `const.ts`.
 - Inside the `Actions.json` folder, create another file named `route.ts`.
+
+Your directory structure should look like this:
+
+<img src="set-up-next.png" alt="setup-next">
+
