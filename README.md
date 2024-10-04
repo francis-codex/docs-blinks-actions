@@ -148,6 +148,18 @@ Client applications that support blinks simply detect Action-compatible URLs, pa
 
 ## Developers’ Integration Guide
 
+Developers can create actions as separate APIs that comply with the Solana Actions Specification, and then may link them to their existing site URLs using an actions.json file.
+
+Blinks are fully-qualified URLs. An actions.json file must be published at the root of the domain (e.g., payclip.com/actions.json) in order to self-register as a blink.
+
+As at now , all four extensions (Phantom, Backpack, Dialect, Solflare) will only unfurl registered (“trusted”) Actions URLs on [Twitter/X](http://x.com/). To enable this, developers must register their Actions in the [Dialect Actions Registry](http://dial.to/register).
+
+Developers can test the entire end-to-end flow, including what the blink will look like, on [dial.to](http://dial.to/) by inputting their Actions URL.
+
+Additionally, there are a host of libraries and SDKs for developers who wish to build clients that support blinks, or wallet chrome extensions that add blinks to existing sites like [Twitter/X](http://x.com/). These libraries make it possible to build applications that render and style blinks with little work.
+
+**Now, We are going to Build a Blink to Transfer $SOL.**
+
 ## Prerequisites
 
 
