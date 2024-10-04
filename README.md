@@ -175,7 +175,7 @@ First, ensure you have Node.js and npm installed. You can download them from [he
 
 So we are going to be doing this two ways:
 
-> Create Solana dapp
-> Create a Next.js app
+**Create Solana dapp** <br>
+**Create a Next.js app**
 
 
