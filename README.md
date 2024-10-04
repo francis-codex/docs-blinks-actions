@@ -40,17 +40,17 @@ Currently, Blinks are experimentally integrated with X, enabling real-time block
 
 Some Use-cases of Solana Actions might include:
 
-Staking SOL to help secure the Solana network, including liquid staking tokens.
-Allowing customers to pay at a retail store using a QR code scan.
-Token-gated minting experiences.
-Enabling e-commerce websites to accept cryptocurrency payments directly from product pages.
-Integrating blockchain functionality into gaming platforms for in-game asset purchases and trades.
+Staking SOL to help secure the Solana network, including liquid staking tokens.<br>
+Allowing customers to pay at a retail store using a QR code scan.<br>
+Token-gated minting experiences.<br>
+Enabling e-commerce websites to accept cryptocurrency payments directly from product pages.<br>
+Integrating blockchain functionality into gaming platforms for in-game asset purchases and trades.<br>
 
 Some Use-cases of Solana Blinks might include:
 
-Tipping content creators on social media without the need for complex wallet setups
-Minting custom NFTs or participating in governance votes directly from URLs
-Letting users vote on community policies via links in newsletters.
+Tipping content creators on social media without the need for complex wallet setups,<br>
+Minting custom NFTs or participating in governance votes directly from URLs.<br>
+Letting users vote on community policies via links in newsletters.<br>
 
 ## How Do Actions and Blinks Works?
 
