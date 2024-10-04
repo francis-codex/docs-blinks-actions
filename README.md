@@ -171,6 +171,11 @@ Before you get our hands dirty, make sure you have the following:
 Now, Let's go!
 
 **Step 1: Setting Up Your Environment:**
+First, ensure you have Node.js and npm installed. You can download them from [here](https://nodejs.org/).
 
+So we are going to be doing this two ways:
+
+> Create Solana dapp
+> Create a Next.js app
 
 
