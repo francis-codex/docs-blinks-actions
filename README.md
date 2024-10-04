@@ -129,6 +129,18 @@ Interacting with Solana Actions is similar to using a typical REST API
 - Actions can return error messages and disable options when not applicable
 - Example: A closed voting window might return "This proposal is no longer up for a vote" and disable voting buttons
 
+## Blinks
+
+Blinks (blockchain links) are client applications that reflect Action APIs and construct user interfaces around interacting with and executing Actions.
+
+Client applications that support blinks simply detect Action-compatible URLs, parse them, and allow users to interact with them in standardized user interfaces.
+
+```text
+Info
+Any client application that fully introspects an Actions API to build a complete interface for it is a blink. Therefore, not all clients that consume Actions APIs are blinks.
+
+```
+
 ## Developers’ Integration Guide
 
 ## Prerequisites
