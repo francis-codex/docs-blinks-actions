@@ -213,3 +213,33 @@ Your directory structure should look like this:
 
 <img src="set-up-next.png" alt="setup-next">
 
+
+**Create Solana dapp:**
+
+```test
+npx create-solana-dapp
+```
+
+Name your project and change the directory. Mine;
+
+```test
+cd blinks-sol-transfer
+npm run dev
+```
+
+1. **Create Directories:**
+
+Under `web/app`, create two folders:
+
+- `api/transfer-sol` (you can choose a different name if needed)
+- `Actions.json`
+
+2. **Create `route.ts` Files:**
+
+- Inside the `api/transfer-sol` folder, create a file named `route.ts` and `const.ts`.
+- Inside the `Actions.json` folder, create another file named `route.ts`.
+
+Your directory structure should look like this:
+
+<img src="set-up.png" alt="setup-next">
+
