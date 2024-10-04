@@ -181,5 +181,11 @@ So we are going to be doing this two ways, you could use which ever one works fo
 > **Reasons**
 >
 > If you are building a full Solana dApp, with frameworks like Anchor, you may want to use the Create Solana dapp,
-> because it comes pre-installed, when you click YES to the options while installing, anything other than that,
-> you can go with the regular Create a Next.js app.
+> because it comes pre-installed, when you click YES to the options while installing the Create Solana dapp,
+> anything other than that,you can go with the regular Create a Next.js app.
+
+**Create a Next.js app:**
+
+```test
+npx create-next-app@latest
+```
