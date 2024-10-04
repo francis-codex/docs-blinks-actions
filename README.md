@@ -108,6 +108,11 @@ Interacting with Solana Actions is similar to using a typical REST API
 
 <img src="blinks-works.png" width="600" height="350" alt="postal-logo">
 
+> **Info**
+>
+> You can think of Actions as a API endpoint that will return metadata and something
+> for a user to sign (either a transaction or a authentication message) with their blockchain wallet.
+
 #### Transaction Signing and Submission
 
 - Wallet helps user sign the transaction
