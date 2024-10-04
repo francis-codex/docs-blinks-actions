@@ -8,7 +8,7 @@
 - [What are Solana Actions and Blinks?](#what-are-solana-actions-and-blinks)
 - [Difference between Actions and blinks?](#difference-between-actions-and-blinks)
 - [Solana Actions and Blinks Use Cases](#solana-actions-and-blinks-use-cases)
-- [How Do Blinks Works?](#how-do-blinks-works)
+- [How Do Actions and Blinks Works?](#how-do-actions-and-blinks-works)
 - [Developers’ Integration Guide](#developers-integration-guide)
 - [Prerequisites](#prerequisites)
 
@@ -52,46 +52,87 @@ Tipping content creators on social media without the need for complex wallet set
 Minting custom NFTs or participating in governance votes directly from URLs
 Letting users vote on community policies via links in newsletters.
 
-```javascript
-    ########
-```
+## How Do Actions and Blinks Works?
 
-## How Do Blinks Works?
+### Actions
 
-To get the most out of Helius in your Solana development:
+**Purpose**:
 
-1. **Leverage Enhanced RPC Nodes**: Replace public RPC endpoints with Helius nodes for improved performance and reliability.
+- Allows applications to send signable transactions directly to users
+- Uses standard APIs accessible via public URLs
 
-2. **Utilize Enhanced Transaction Data**: Take advantage of the enriched transaction data to simplify your application logic and reduce the need for complex on-chain data processing.
+**How it works**:
 
-3. **Implement Webhooks**: Use Helius Webhooks to create responsive, event-driven applications that react to on-chain events in real-time.
+- Two main types of requests: GET and POST
+- Both interact with an Action's URL endpoint
 
-4. **Optimize NFT Handling**: Leverage the NFT and DAS APIs to streamline NFT-related operations in your applications.
+1. **GET Request**:
+   - Retrieves metadata about the Action
+   - Provides:
+     - Human-readable information about available actions
+     - Optional list of related actions
 
-5. **Combine Multiple Helius Products**: Integrate multiple Helius products to create powerful, feature-rich applications.
+2. **POST Request**:
+   - Returns a signable transaction or message
+   - Process:
+     - Client receives the transaction/message
+     - Client prompts user's wallet to sign
+     - Transaction is then executed on the blockchain or an off-chain service
 
-## Best Practices and Tips
+Interacting with Solana Actions is similar to using a typical REST API
 
-1. **API Key Management**: Securely store and manage your Helius API keys. Never expose them in client-side code.
+#### Initial GET Request
 
-2. **Rate Limiting**: Be aware of rate limits for different Helius products and implement appropriate throttling in your applications.
+- Client sends a GET request to the Action URL
+- Purpose: Fetch metadata about available Actions
 
-3. **Error Handling**: Implement robust error handling to manage potential API downtime or rate limiting issues.
+#### Metadata Response
 
-4. **Caching**: Implement caching strategies to reduce unnecessary API calls and improve your application's performance.
+- Endpoint returns:
+- Application metadata (title, icon, etc.)
+- List of available actions
 
-5. **Webhook Security**: When using webhooks, implement proper security measures such as signature verification to ensure the integrity of received data.
+#### User Interface
 
-6. **Stay Updated**: Keep an eye on Helius documentation and updates to take advantage of new features and improvements.
+- Client (e.g., mobile wallet, chat bot, website) displays UI based on received metadata
+- Shows options for user to perform actions
 
-7. **Community Engagement**: Participate in the Helius community to share knowledge, get support, and stay informed about best practices.
+#### User Action
+
+- User selects an action (e.g., clicks a button)
+
+#### POST Request
+
+- Client sends a POST request to the endpoint
+- Purpose: Get the transaction for user to sign
+
+<img src="blinks-works.png" width="600" height="350" alt="postal-logo">
+
+#### Transaction Signing and Submission
+
+- Wallet helps user sign the transaction
+- Signed transaction is sent to the blockchain for confirmation
+
+#### Transaction Lifecycle Management
+
+- Client handles submission of transactions to the blockchain
+- Manages the state lifecycle of transactions
+
+#### Action Invalidation
+
+- Actions support invalidation before execution
+- GET and POST requests may return metadata about action availability
+- Example: "disabled" field indicates if an action can be taken
+
+#### Error Handling
+
+- Actions can return error messages and disable options when not applicable
+- Example: A closed voting window might return "This proposal is no longer up for a vote" and disable voting buttons
 
 ## Developers’ Integration Guide
 
-Helius provides a powerful suite of tools and services that can significantly enhance your Solana development experience. By leveraging its high-performance RPC nodes, enriched APIs, real-time webhooks, and specialized NFT tools, you can build more sophisticated, scalable, and responsive Solana applications.
-
-As you integrate Helius into your development workflow, remember to follow best practices, stay updated with the latest features, and engage with the community. With Helius, you're not just accessing a set of tools, but tapping into an ecosystem designed to propel Solana development forward.
-
-Whether you're building a DeFi application, an NFT marketplace, or exploring novel use cases on Solana, Helius provides the infrastructure and tools to turn your vision into reality. By maximizing the use of Helius in your projects, you're setting yourself up for success in the dynamic and exciting world of Solana development.
-
 ## Prerequisites
+
+```javascript
+    ########
+```
