@@ -189,3 +189,10 @@ So we are going to be doing this two ways, you could use which ever one works fo
 ```test
 npx create-next-app@latest
 ```
+
+Name your project and change the directory. Mine;
+
+```test
+cd blinks-sol-transfer
+npm run dev
+```
