@@ -506,8 +506,7 @@ export const OPTIONS = GET;
 We are done, writing codes,
 
 Now let's verify the GET API response by sending a request to the API using the Thunder client extension in VS Code.
-
 <img src="thunder.png" alt="thunder-client">
-
-
 You can do it using [Postman](https://www.postman.com/) also.
+
+<img src="verify1.png" alt="verify">
