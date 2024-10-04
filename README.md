@@ -69,15 +69,15 @@ Letting users vote on community policies via links in newsletters.
 1. **GET Request**:
    - Retrieves metadata about the Action
    - Provides:
-     - Human-readable information about available actions
-     - Optional list of related actions
+   - Human-readable information about available actions
+   - Optional list of related actions
 
 2. **POST Request**:
    - Returns a signable transaction or message
    - Process:
-     - Client receives the transaction/message
-     - Client prompts user's wallet to sign
-     - Transaction is then executed on the blockchain or an off-chain service
+   - Client receives the transaction/message
+   - Client prompts user's wallet to sign
+   - Transaction is then executed on the blockchain or an off-chain service
 
 Interacting with Solana Actions is similar to using a typical REST API
 
