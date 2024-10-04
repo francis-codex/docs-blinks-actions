@@ -40,6 +40,11 @@ Blinks are one way to interact with an Action. Blinks allow users to execute blo
 
 Currently, Blinks are experimentally integrated with X, enabling real-time blockchain transaction processing. They have found utility in payments, smart contract signing, voting, donations, and token swaps on [Dialect](https://dial.to/).
 
+> Traditional onchain transactions have been locked away in apps or complex interfaces, 
+> making it significantly harder for people to use crypto products.
+> With Solana Actions and blockchain links, or blinks, 
+> transactions can open up to anywhere on the internet — no dApp required.
+
 Some Use-cases of Solana Actions might include:
 
 Staking SOL to help secure the Solana network, including liquid staking tokens.<br>
