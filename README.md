@@ -106,7 +106,7 @@ Interacting with Solana Actions is similar to using a typical REST API:
 - Client sends a POST request to the endpoint
 - Purpose: Get the transaction for user to sign
 
-<img src="blinks-works.png" width="600" height="350" alt="postal-logo">
+<img src="blinks-works.png" width="700" height="450" alt="postal-logo">
 
 > **Info**
 >
