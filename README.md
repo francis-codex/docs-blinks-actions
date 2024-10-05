@@ -528,9 +528,7 @@ Verify the POST API response by sending a request with the sender’s account de
 
 <img src="verify2.png" alt="verify2">
 
-> If you are encountering any issues while creating blink, you can clone my GitHub repo:<br>
-> [Create-Solana-dapp](https://github.com/francis-codex/blinks-sol-transfer)<br>
-> [Create-Next.js-app](https://github.com/francis-codex/blinks-sol-transfer-next)
+
 
 ## Conclusion
 
