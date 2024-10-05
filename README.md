@@ -534,7 +534,7 @@ Verify the POST API response by sending a request with the sender’s account de
 
 ## Conclusion
 
-This guide provided an overview of creating Blinks on Solana, including basic setup, creating a simple Blink, and handling various use cases. By following these steps, you should be able to create and deploy your own Blinks, enabling interactive blockchain experiences on Twitter/X.
+This guide provided an overview of creating Blinks on Solana, including basic setup, creating a simple Blink, and handling various use cases. By following these steps, you should be able to create and deploy your own Blinks, enabling interactive blockchain experiences on [Twitter/X](http://x.com/).
 
 ## Resources
 
